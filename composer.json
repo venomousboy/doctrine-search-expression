@@ -8,7 +8,7 @@
     "php": "^7.4",
     "doctrine/orm": "^2.4",
     "php-ds/php-ds": "^1.2",
-    "venomosuboy/search-query": "^0.1.0"
+    "venomousboy/search-query": "^0.1.0"
   },
   "autoload": {
     "psr-4": {
