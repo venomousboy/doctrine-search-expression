@@ -1,0 +1,17 @@
+{
+  "name": "venomosuboy/doctrine-search-expression",
+  "description": "Doctrine search expression",
+  "type": "library",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^7.4",
+    "doctrine/orm": "^2.4",
+    "php-ds/php-ds": "^1.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Venomousboy\\DoctrineSearchExpression\\": "src/"
+    }
+  }
+}
