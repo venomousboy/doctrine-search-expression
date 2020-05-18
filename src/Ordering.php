@@ -15,7 +15,7 @@ final class Ordering
     public static function add(QueryBuilder $queryBuilder, array $orderQueries): void
     {
         foreach ($orderQueries as $orderQuery) {
-            $queryBuilder->orderBy($orderQuery->getProperty(), $orderQuery->getOrdering());
+            $queryBuilder->orderBy($orderQuery->getProperty(), $orderQuery->getOrdering()->getRawValue());
         }
     }
 }
